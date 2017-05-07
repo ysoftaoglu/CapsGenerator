@@ -1,0 +1,83 @@
+$white: #fff
+$blue: #1e88e5
+$input-button-space: 8px 10px
+$global-space: 15px
+$global-small-space: 7px
+$border-color: #ddd
+$border-radius: 5px
+$secondary-color: #3e3e3e
+$red: #ff0000
+
+*
+  box-sizing: border-box
+
+body
+  font-family: "Lato", sans-serif
+  padding: 0
+  margin: 0
+
+// helper
+.u-block
+  display: block !important
+
+.u-bold
+  font-weight: bold !important
+
+.app
+  width: 530px
+  margin: 0 auto
+  border: 1px solid $border-color
+  padding: $global-space
+  border-radius: $border-radius
+  margin-top: $global-space
+  margin-bottom: $global-space
+
+  &__logo
+    text-align: center
+    margin-bottom: $global-space
+    &-img
+      width: 50px
+      margin: 0 auto $global-space / 2 auto
+
+  input
+    outline: 0
+    padding: $input-button-space
+
+  &__button,
+  button
+    @extend input
+    background-color: $blue
+    color: $white
+    border: 0
+    text-align: center
+  &__input
+    border: 1px solid #ddd  
+    width: 100%
+    &--color
+      width: 50px
+      padding: 0 !important
+  
+  &__label
+    margin-bottom: 15px
+  
+  &__error
+    display: none
+    font-size: 11px
+    color: $red
+    margin-left: $global-small-space
+
+  &__icon
+    margin-right: $global-small-space
+    color: $secondary-color
+
+  &__row
+    margin-top: $global-space
+    button,
+    a
+      cursor: pointer
+
+      &:last-child
+        margin-right: 0
+
+  &__canvas
+    display: block

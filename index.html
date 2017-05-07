@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Caps Generator</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/min.css">
+</head>
+
+<body>
+  <main class="app">
+    <div class="app__logo">
+      <img class="app__logo-img u-block" src="img/logo.png">
+      <span class="app__logo-text u-bold">Caps Generator</span>
+    </div>
+    <canvas class="app__canvas jsCanvas" width="500" height="400"></canvas>
+    <div class="app__row">
+      <label class="app__label u-block"><i class="fa fa-file-image-o app__icon"></i>Resim Seçiniz</label>
+      <input type="file" class="app__input jsFileInput">
+    </div>
+
+    <div class="app__row">
+      <label class="app__label u-block"><i class="fa fa-file-text-o app__icon"></i>Caps Yazısı <span class="app__error jsError">Caps Yazısı Boş Geçilemez.</span></label>
+      <input type="text" class="app__input jsCaptionInput" placeholder="Text Giriniz">
+    </div>
+
+    <div class="app__row">
+      <label class="app__label u-block"><i class="fa fa-square-o app__icon"></i>Caps Yazı Arkaplanı</label>
+      <input type="color" class="app__input app__input--color jsCaptionBg" value="#ff0000">
+    </div>
+
+    <div class="app__row app__row--flex">
+      <a href="#" class="jsDownloadLink app__button u-block" download="caps.png">
+        <button class="jsSaveImage">Resim Olarak Kaydet</button>
+      </a>
+    </div>
+  </main>
+  <script src="dist/js/min.js"></script>
+</body>
+
+</html>
