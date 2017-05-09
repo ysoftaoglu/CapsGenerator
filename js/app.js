@@ -16,7 +16,7 @@ ctx.fillStyle = '#fff';
 
 // Create Image
 let image = new Image();
-image.src = 'https://raw.githubusercontent.com/ysoftaoglu/CapsGeneretor/master/img/caps.png';
+image.src = 'https://ysoftaoglu.github.io/CapsGeneretor/img/caps.png';
 
 // Positions
 let posOption = {
