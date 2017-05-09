@@ -84,6 +84,7 @@ saveButton.addEventListener('click', (e) => {
     downloadLink.href = canvas.toDataURL();
     downloadLink.download = 'caps.png';
   } else {
+    e.preventDefault();
     document.querySelector('.jsError').style.display = 'inline-block';
   }
 });
