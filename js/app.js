@@ -17,7 +17,7 @@ ctx.fillStyle = '#fff';
 // Create Image
 let image = new Image();
 img.setAttribute('crossOrigin', 'anonymous');
-image.src = 'https://ysoftaoglu.github.io/CapsGeneretor/img/caps.png';
+image.src = 'https://ysoftaoglu.github.io/CapsGenerator/img/caps.png';
 
 // Positions
 let posOption = {
