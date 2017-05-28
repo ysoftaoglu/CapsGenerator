@@ -1,5 +1,5 @@
 # CapsGeneretor
-Atolye15 Staj Kampı Caps Oluşturucu Projesi
+Vanilla Javascript Caps Oluşturucu
 
 [Demo](https://ysoftaoglu.github.io/CapsGenerator/)
 
